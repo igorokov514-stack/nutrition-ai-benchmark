@@ -1,0 +1,25 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Streamlit credentials
+.streamlit/secrets.toml
+
+# Local benchmark state and exports
+data/benchmark.sqlite3*
+data/results/
+benchmark-*.csv
+benchmark-*.json
+
+# Editor and backup files
+.idea/
+.vscode/
+*.bak
+*~
